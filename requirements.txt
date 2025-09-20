@@ -1,0 +1,4 @@
+# Dependencies for the Streamlit motion detection app
+streamlit>=1.30
+opencv-python-headless>=4.8.0
+numpy>=1.26
