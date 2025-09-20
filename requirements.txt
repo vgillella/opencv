@@ -1,4 +1,13 @@
 # Dependencies for the Streamlit motion detection app
+# Core
 streamlit>=1.30
-opencv-python-headless>=4.8.0
 numpy>=1.26
+
+# OpenCV (server/headless build)
+opencv-python-headless>=4.8.0
+
+# Browser webcam support via WebRTC
+# Note: pin versions for stability on Streamlit Cloud
+streamlit-webrtc>=0.47.7
+aiortc>=1.5.0
+av>=10.0.0
